@@ -1,6 +1,7 @@
 # Discovering Emotion and Reasoning its Flip in Multi-Party Conversations using Masked Memory Networks and Transformer
 
-This folder contains the code required to reproduce the results of the paper - **"Discovering Emotion and Reasoning its Flip in Multi-Party Conversations using Masked Memory Networks and Transformer"**.
+Code and dataset will be uploaded soon.
+<!-- This folder contains the code required to reproduce the results of the paper - **"Discovering Emotion and Reasoning its Flip in Multi-Party Conversations using Masked Memory Networks and Transformer"**.
 
 The paper introduces a novel problem, called **Emotion-Flip Reasoning** aka **EFR** in conversations. The goal is to find all utterances that trigger a flip in emotion of a speaker within a dialog.
 An example scenario is depicted in the figure below:
@@ -47,3 +48,4 @@ The results reported in the paper are achieved on the full dataset and hence wou
 
 ### Running the code for custom data
 Since our model uses [BERT](https://arxiv.org/pdf/1810.04805.pdf) embeddings as utterance reprsentation, first you'll need to generate these BERT embeddings for your data. After you have a dictionary mapping for your utterances to embeddings, you'll need to change the paths in the ERC and EFR dataloaders. Specifically, the paths for training file, testing file and embedding files needs to be changed. After executing the teh dataloaders you'll get the necessary pickle files to run the models.
+ -->
