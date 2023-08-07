@@ -19,7 +19,7 @@ In this work, our major contributions are four-fold:
 4. We develop a masked memory network based architecture for ERC, which outperforms several recent baselines.
 
 ## Dataset
-We provide the dataset along with the code (*"Data/MELD_<set>_efr.csv"*). You can use your own dataset if you follow the expected format for the data.
+We provide the dataset along with the code (*"Data/MELD_\<set\>_efr.csv"*). You can use your own dataset if you follow the expected format for the data.
 The models in this repo expects the data to follow the following structure:
 | Dialogue Id | Speaker | Emotion | Utterance | EFR Label |
 |-------------|---------|---------|-----------|-----------|
